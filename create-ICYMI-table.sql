@@ -1,7 +1,0 @@
-Use TestDB;
-
-CREATE TABLE ICYMI (
-    SongID INT PRIMARY KEY IDENTITY,
-    SongTitle NVARCHAR(50),
-    ReleaseDate DATE
-)

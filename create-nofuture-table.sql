@@ -1,7 +1,0 @@
-USE TestDB;
-
-CREATE TABLE NoFuture (
-	SongID INT PRIMARY KEY IDENTITY,
-	SongTitle NVARCHAR(50),
-	ReleaseDate DATE
-);

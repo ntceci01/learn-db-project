@@ -1,7 +1,0 @@
-USE TestDB;
-
-CREATE TABLE EndCredits (
-	SongID INT PRIMARY KEY IDENTITY,
-	SongTitle NVARCHAR(50),
-	ReleaseDate DATE
-);
