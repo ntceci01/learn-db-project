@@ -1,0 +1,7 @@
+USE TestDB;
+
+CREATE TABLE Veritgo (
+	SongID INT PRIMARY KEY IDENTITY,
+	SongTitle NVARCHAR(50),
+	ReleaseDate DATE
+);
